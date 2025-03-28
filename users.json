@@ -1,0 +1,36 @@
+{
+    "newuser": {
+        "name": "New User",
+        "profile": {
+            "age": 30,
+            "weight": 75.5,
+            "height": 180.0,
+            "gender": "Male",
+            "activity_level": "Moderately Active"
+        }
+    },
+    "jack": {
+        "name": "jack",
+        "profile": {}
+    },
+    "testuser": {
+        "name": "Test User Name",
+        "profile": {
+            "age": 30,
+            "weight": 75.5,
+            "height": 180.0,
+            "gender": "Male",
+            "activity_level": "Moderately Active"
+        }
+    },
+    "iitan": {
+        "name": "iitan",
+        "profile": {
+            "age": 30,
+            "weight": 70,
+            "height": 170,
+            "gender": "Male",
+            "activity_level": "Lightly Active"
+        }
+    }
+}
