@@ -21,7 +21,7 @@ CONFIDENCE_THRESHOLD = 0.25
 app = Flask(__name__)
 # IMPORTANT: Set a secret key for session management!
 # app.secret_key = os.environ.get('FLASK_SECRET_KEY', secrets.token_hex(16)) # <-- Comment this out
-app.secret_key = 'your-fixed-secret-key-here-12345' # <-- ADD THIS LINE (Use any string)
+app.secret_key = '' # <-- ADD THIS LINE (Use any string)
 print(f"Using Flask secret key (DEMO ONLY - HARDCODED): {app.secret_key[:5]}...") # Optional: update print
 
 CORS(app, supports_credentials=True) # Enable CORS and allow credentials (cookies)
